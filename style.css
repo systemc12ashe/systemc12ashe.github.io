@@ -1,5 +1,11 @@
-h1 {
-    font-size: 2em;
-    font-weight: 800;
+body {
     font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    /* font-size: 2em; */
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: 400;
 }
