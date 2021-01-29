@@ -1,16 +1,16 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
 }
 h1 {
-    font-weight: 800;
+  font-weight: 800;
 }
 
 h2 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .link {
-    color: white;
-    background-color: black;
+  color: white;
+  background-color: black;
 }
