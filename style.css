@@ -10,7 +10,17 @@ h2 {
   font-weight: 400;
 }
 
-.link {
+/* .link {
   color: white;
   background-color: black;
+} */
+
+.project {
+    text-align: left;
+}
+
+/* TEMP STYLING, FIX LATER */
+img {
+    max-width: 15%;
+    height: auto;
 }
