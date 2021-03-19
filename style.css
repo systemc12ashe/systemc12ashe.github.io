@@ -15,11 +15,6 @@ h2 {
   font-weight: 400;
 }
 
-/* .link {
-  color: white;
-  background-color: black;
-} */
-
 #projectDescriptions {
   text-align: left;
   padding-top: calc(var(--bs-gutter-x) / 2);
@@ -45,12 +40,37 @@ img {
   margin-bottom: 20px;
 }
 
-h2 a {
-  color: black;
+.navbar {
+  background-color: #000000;
+}
+
+.navbar a {
+  color: white;
+}
+.navbar a:hover {
+  color: red;
+}
+
+.projName:link {
+  color: #000000;
   text-decoration: none;
 }
 
-h2 a:hover {
-  color: red;
+.projName:visited {
+  color: #000000;
   text-decoration: none;
+}
+
+.projName:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.projName:active {
+  color: #000000;
+  text-decoration: none;
+}
+
+.active {
+  font-weight: bold;
 }
