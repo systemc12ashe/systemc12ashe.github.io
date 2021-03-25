@@ -3,8 +3,15 @@ body {
   text-align: center;
 }
 
-.projectPage {
+/* .projectPage , .resume{
   background-color: #ededed;
+} */
+
+#logo {
+  display: block;
+  max-width: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
@@ -33,12 +40,14 @@ img {
 #secretSpy,
 #se181Bank, 
 #CSVapp {
-  background-color: white;
   margin-top: 20px;
+  /* -webkit-box-shadow: 9px 6px 0px 5px #ee4f49; 
+  box-shadow: 9px 6px 0px 5px #ee4f49; */
+  background-color: #ededed;
 }
 
-#secretSpy {
-  margin-bottom: 20px;
+.bottom {
+  padding-bottom: 20px;
 }
 
 .navbar {
@@ -46,10 +55,10 @@ img {
 }
 
 .navbar a {
-  color: white;
+  color: #ffffff;
 }
 .navbar a:hover {
-  color: red;
+  color: #ee4f49;
 }
 
 .projName:link {
@@ -75,3 +84,26 @@ img {
 .active {
   font-weight: bold;
 }
+
+.sub-li {
+  margin-left: 5%;
+}
+
+.resume {
+  text-align: left;
+}
+
+.resume-top-info {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.resume-subhead {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.resume-info-section {
+  margin-left: 3%;
+}
+
