@@ -1,7 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  color: #1d1f20
+  /* color: #1d1f20 */
 }
 
 /* .projectPage , .resume{
@@ -97,7 +97,6 @@ img {
 .resume-subhead {
   text-transform: uppercase;
   font-weight: 600;
-  color: #ee4f49;
 }
 
 .resume-info-section {
