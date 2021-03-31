@@ -8,6 +8,11 @@ body {
   background-color: #ededed;
 } */
 
+#logo_home {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 #logo {
   display: block;
   max-width: 5%;
@@ -52,6 +57,14 @@ img {
   /* -webkit-box-shadow: 9px 6px 0px 5px #ee4f49; 
   box-shadow: 9px 6px 0px 5px #ee4f49; */
   background-color: #ededed;
+}
+
+.name {
+  font-size: 2rem;
+}
+
+p {
+  margin-bottom: 0;
 }
 
 .bottom {
@@ -126,4 +139,8 @@ img {
   
   /* CSS */
   
+}
+
+.bi {
+  padding-right: 1rem;
 }
