@@ -48,8 +48,8 @@ img {
 #studentPortfolio,
 #STAR_hackathon {
   margin-top: 20px;
-  /* -webkit-box-shadow: 9px 6px 0px 5px #ee4f49; 
-  box-shadow: 9px 6px 0px 5px #ee4f49; */
+  /* -webkit-box-shadow: 9px 6px 0px 5px #f3be4c; 
+  box-shadow: 9px 6px 0px 5px #f3be4c; */
   background-color: #ededed;
 }
 
@@ -74,7 +74,7 @@ p {
   color: #ffffff;
 }
 .navbar a:hover {
-  color: #ee4f49;
+  color: #f3be4c;
 }
 
 .projName:link {
@@ -88,7 +88,7 @@ p {
 }
 
 .projName:hover {
-  color: #ee4f49;
+  color: #f3be4c;
   text-decoration: none;
 }
 
@@ -126,7 +126,7 @@ p {
 .heading {
   text-transform: uppercase;
   font-weight: bold;
-  color: #ee4f49;
+  color: #f3be4c;
   padding-top: 3%;
 }
 
