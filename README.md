@@ -1,1 +1,0 @@
-# systemc12ashe.github.io
