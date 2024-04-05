@@ -14,8 +14,8 @@ function App() {
           <h1 id='intro'>Hi, I'm Cassidy!</h1>
           <h3>Software Engineer</h3>
           <h3>Drexel Software Engineering B.S., 2024</h3>
-          <li className = 'icon'><a href = "https://www.linkedin.com/in/cassidyashe/"><FontAwesomeIcon icon={faLinkedin} color='#ebc77a' size='2x' /></a></li>
-          <li className = 'icon'><a href = "https://github.com/systemc12ashe"><FontAwesomeIcon icon={faSquareGithub} color='#ebc77a' size='2x' /></a></li>
+          <li className = 'icon'><a href = "https://www.linkedin.com/in/cassidyashe/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} color='#ebc77a' size='2x' /></a></li>
+          <li className = 'icon'><a href = "https://github.com/systemc12ashe" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faSquareGithub} color='#ebc77a' size='2x' /></a></li>
         </div>
         <div>
           <div>

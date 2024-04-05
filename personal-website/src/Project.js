@@ -7,7 +7,7 @@ export function Project({name, startDate, endDate, information, github}) {
             <h3>{name}</h3>
             <p>{startDate} - {endDate}</p>
             <p>{information}</p>
-            <a href = {github}><FontAwesomeIcon icon={faSquareGithub} color='#f3be4c' size='2x' /></a>
+            <a href = {github} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faSquareGithub} color='#f3be4c' size='2x' /></a>
         </div>
     )
   }
