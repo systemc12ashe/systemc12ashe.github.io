@@ -1,5 +1,12 @@
 .App {
-  text-align: center;
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+html{
+  background-color: #110f0d;
+  color: #fff3d6;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -34,4 +41,39 @@ h1 {
   to {
     transform: rotate(360deg);
   }
+}
+
+.work, .project, .sectionHeader {
+  padding-bottom: 1%;
+}
+
+.skillSection {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 2em;;
+}
+
+.skill {
+  display: inline;
+  background-color: #f3be4c;
+  margin-left: 0;
+  margin-right: .6%;
+  padding: 10px;
+  border-radius: 15px;
+  color: #110f0d;
+  font-weight: bold;
+}
+
+#intro {
+  color: #f3be4c;
+  font-size:xx-large;
+}
+
+.sectionHeader {
+  color: #f3be4c;
+}
+
+p, li {
+  font-weight: 600;
 }
