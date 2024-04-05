@@ -62,7 +62,7 @@ export function WorkSection() {
         },
     }
     return(
-        <div>
+        <div className='workSection'>
             {Object.keys(workJson).map((key, i) => (
                 <div key={i}>
                     <Work

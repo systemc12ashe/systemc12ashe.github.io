@@ -59,7 +59,7 @@ h1 {
 
 .skill {
   display: inline;
-  background-color: #f3be4c;
+  background-color: #ebc77a;
   margin-left: 0;
   margin-right: .6%;
   padding: 10px;
@@ -70,13 +70,22 @@ h1 {
 
 #intro {
   color: #f3be4c;
-  font-size:xx-large;
+  font-size:3em;
 }
 
 .sectionHeader {
   color: #f3be4c;
+  font-size: xx-large;
 }
 
 p, li {
   font-weight: 600;
+}
+li.icon, FontAwesome{
+  display: inline;
+  padding-right: 1%;
+}
+
+.workSection, .projectSection {
+  padding-left: 2%;
 }

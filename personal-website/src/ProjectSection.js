@@ -3,7 +3,7 @@ import { SkillSection } from './SkillSection.js'
 
 export function ProjectSection() {
     const projectJson = {
-        "1": {
+        "6": {
             "name": "CSVApp",
             "startDate": "February 2021",
             "endDate": "March 2021",
@@ -11,7 +11,7 @@ export function ProjectSection() {
             "technologies": ["Python", "PySimpleGUI", "Git"],
             "github": "https://github.com/systemc12ashe/se211CourseProject"
         },
-        "2": {
+        "5": {
             "name": "Personal Website",
             "startDate": "2021",
             "endDate": "Present",
@@ -19,7 +19,7 @@ export function ProjectSection() {
             "technologies": ["React", "Javascript", "CSS", "HTML", "Git"],
             "github": "https://github.com/systemc12ashe/systemc12ashe.github.io"
         },
-        "3": {
+        "4": {
             "name": "Calendar",
             "startDate": "February 2022",
             "endDate": "March 2022",
@@ -27,7 +27,7 @@ export function ProjectSection() {
             "technologies": ["React", "NodeJS", "Firebase", "Google Calendar API", "Git"],
             "github": "https://github.com/systemc12ashe/calendarApp"
         },
-        "4": {
+        "3": {
             "name": "Blockly",
             "startDate": "September 2023",
             "endDate": "December 2023",
@@ -35,7 +35,7 @@ export function ProjectSection() {
             "technologies": ["TypeScript", "Git"],
             "github": "https://github.com/systemc12ashe/blockly"
         },
-        "5": {
+        "2": {
             "name": "Data Mining Project",
             "startDate": "January 2024",
             "endDate": "March 2024",
@@ -43,17 +43,17 @@ export function ProjectSection() {
             "technologies": ["Python", "Pandas", "Weka", "Git"],
             "github": "https://github.com/systemc12ashe/data_mining"
         },
-        "6": {
+        "1": {
             "name": "GattegnoType",
             "startDate": "September 2024",
             "endDate": "June 2024",
             "information": "Senior capstone for Drexel University. In our group of 6, we are creating a program that associates each sound in the English language with a color or combination of colors, which can help students learning English as a Second Language understand which sounds to make when pronouncing words. It's intended to transcribe text into color-coded systems.",
             "technologies": ["C", "Python", "Figma", "Gitlab", "WSL", "NLTK" ,"Project Management", "Software Engineering"],
-            "github": "Coming Soon"
+            "github": ""
         }
     }
     return(
-        <div>
+        <div className='projectSection'>
             {Object.keys(projectJson).map((key, i) => (
                 <div key={i}>
                     <Project
