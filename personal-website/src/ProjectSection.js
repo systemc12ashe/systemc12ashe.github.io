@@ -49,7 +49,7 @@ export function ProjectSection() {
             "endDate": "June 2024",
             "information": "Senior capstone for Drexel University. In our group of 6, we are creating a program that associates each sound in the English language with a color or combination of colors, which can help students learning English as a Second Language understand which sounds to make when pronouncing words. It's intended to transcribe text into color-coded systems.",
             "technologies": ["C", "Python", "Figma", "Gitlab", "WSL", "NLTK" ,"Project Management", "Software Engineering"],
-            "github": ""
+            "github": "https://seniorproject.cci.drexel.edu/project/a5c8477c-8476-49db-a3e8-9b1e35e3c306/"
         }
     }
     return(

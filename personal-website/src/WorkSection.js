@@ -5,30 +5,30 @@ export function WorkSection() {
     const workJson = {
         
         "1": {
-            "role": "SAP Innovation Center Network",
-            "company": "SAP STAR Co-op",
+            "role": "UI/UX Designer",
+            "company": "SAP Innovation Center Network",
             "startDate": "September 2023",
             "endDate": "Present",
-            "bulletPoints": ["Designing and developing page layouts using Figma", 
-             "Following design requirements and style to create application layouts within restrictions", 
-             "Coordinating and collaborating with remote team members in Germany"
+            "bulletPoints": [" Designed and developed UI flows on 3 product prototypes using Figma", 
+             " Created educational flows and content for developers on our team", 
+             " Coordinated and collaborated with remote team members in Germany"
             ],
             "skills": ["UI/UX", "Figma"]
         },
         "2": {
-            "role": "SAP Mobile Experience",
-            "company": "SAP STAR Co-op",
+            "role": "Android Mobile Developer",
+            "company": "SAP Mobile Experience",
             "startDate": "April 2023",
             "endDate": "September 2023",
-            "bulletPoints": ["Developed and designed an Android mobile application for SAP Mobile Day and improved the design from user feedback", 
-             "Coordinated and collaborated with remote team members in Germany", 
-             "Updated and maintained mobile templates for future customers"
+            "bulletPoints": ["Developed an Android mobile application start to finish for at least 2 SAP Mobile Day events", 
+             " Improved apps based on user feedback and stakeholder input", 
+             "Updated and maintained mobile templates for future customers and developers"
             ],
             "skills": ["Android Studio", "Kotlin", "Git", "UI/UX"]
         },
         "3": {
-            "role": "SAP Recommerce",
-            "company": "SAP STAR Co-op",
+            "role": "Web Developer",
+            "company": "SAP Recommerce",
             "startDate": "April 2022",
             "endDate": "March 2023",
             "bulletPoints": ["Lead development of client-side web application for 3 months",
@@ -39,8 +39,8 @@ export function WorkSection() {
             "skills": ["TypeScript", "SAP UI5", "React", "Testing", "Git"]
         },
         "4": {
-            "role": "North American Innovation Advisory",
-            "company": "SAP STAR Co-op",
+            "role": "Developer",
+            "company": "SAP North American Innovation Advisory",
             "startDate": "April 2021",
             "endDate": "April 2022",
             "bulletPoints": ["Designed and created 6 microsites for presentation of demos to potential customers",
@@ -53,10 +53,10 @@ export function WorkSection() {
             "role": "Senior Dean's Ambassador",
             "company": "Drexel University",
             "startDate": "September 2020",
-            "endDate": "Present",
-            "bulletPoints": ["Assist with university admissions events by presenting my experience prospective students", 
-             "Speak in panel discussions about student life and academics",
-             "Mentor and support new Dean’s Ambassadors to learn the responsibilities of the role"
+            "endDate": "June 2024",
+            "bulletPoints": [" Assisted in university admissions by sharing my experience with prospective students", 
+             "Spoke in panel discussions to groups of over 100 people",
+             "Mentored and supported new Ambassadors to learn the responsibilities of the role"
             ],
             "skills": ["Communication", "Presentation", "Leadership", "Public Speaking"]
         },
