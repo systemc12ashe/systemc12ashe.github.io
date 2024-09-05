@@ -3,7 +3,7 @@ import { SkillSection } from './SkillSection.js'
 
 export function ProjectSection() {
     const projectJson = {
-        "6": {
+        "7": {
             "name": "CSVApp",
             "startDate": "February 2021",
             "endDate": "March 2021",
@@ -11,7 +11,7 @@ export function ProjectSection() {
             "technologies": ["Python", "PySimpleGUI", "Git"],
             "github": "https://github.com/systemc12ashe/se211CourseProject"
         },
-        "5": {
+        "6": {
             "name": "Personal Website",
             "startDate": "2021",
             "endDate": "Present",
@@ -19,7 +19,7 @@ export function ProjectSection() {
             "technologies": ["React", "Javascript", "CSS", "HTML", "Git"],
             "github": "https://github.com/systemc12ashe/systemc12ashe.github.io"
         },
-        "4": {
+        "5": {
             "name": "Calendar",
             "startDate": "February 2022",
             "endDate": "March 2022",
@@ -27,7 +27,7 @@ export function ProjectSection() {
             "technologies": ["React", "NodeJS", "Firebase", "Google Calendar API", "Git"],
             "github": "https://github.com/systemc12ashe/calendarApp"
         },
-        "3": {
+        "4": {
             "name": "Blockly",
             "startDate": "September 2023",
             "endDate": "December 2023",
@@ -35,7 +35,7 @@ export function ProjectSection() {
             "technologies": ["TypeScript", "Git"],
             "github": "https://github.com/systemc12ashe/blockly"
         },
-        "2": {
+        "3": {
             "name": "Data Mining Project",
             "startDate": "January 2024",
             "endDate": "March 2024",
@@ -43,13 +43,21 @@ export function ProjectSection() {
             "technologies": ["Python", "Pandas", "Weka", "Git"],
             "github": "https://github.com/systemc12ashe/data_mining"
         },
-        "1": {
+        "2": {
             "name": "GattegnoType",
-            "startDate": "September 2024",
+            "startDate": "September 2023",
             "endDate": "June 2024",
             "information": "Senior capstone for Drexel University. In our group of 6, we are creating a program that associates each sound in the English language with a color or combination of colors, which can help students learning English as a Second Language understand which sounds to make when pronouncing words. It's intended to transcribe text into color-coded systems.",
             "technologies": ["C", "Python", "Figma", "Gitlab", "WSL", "NLTK" ,"Project Management", "Software Engineering"],
             "github": "https://seniorproject.cci.drexel.edu/project/a5c8477c-8476-49db-a3e8-9b1e35e3c306/"
+        },
+        "1": {
+            "name": "GattegnoType",
+            "startDate": "August 2024",
+            "endDate": "Present",
+            "information": "A simple Android app to support my crochet hobby! Save your yarn and track your projects. I started this project to continue my learning in Android, and plan to add other features as I go along.",
+            "technologies": ["Kotlin", "Android Studio", "Jetpack Compose", "Github"],
+            "github": "https://github.com/systemc12ashe/crochet_app"
         }
     }
     return(
