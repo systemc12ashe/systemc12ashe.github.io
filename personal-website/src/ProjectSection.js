@@ -52,7 +52,7 @@ export function ProjectSection() {
             "github": "https://seniorproject.cci.drexel.edu/project/a5c8477c-8476-49db-a3e8-9b1e35e3c306/"
         },
         "1": {
-            "name": "GattegnoType",
+            "name": "Crochet App",
             "startDate": "August 2024",
             "endDate": "Present",
             "information": "A simple Android app to support my crochet hobby! Save your yarn and track your projects. I started this project to continue my learning in Android, and plan to add other features as I go along.",
